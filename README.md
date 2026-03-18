@@ -2,6 +2,8 @@
 
 A desktop todo list widget for [Rainmeter](https://www.rainmeter.net/) with sections, tasks, subitems, and clickable URL descriptions.
 
+![TodoWidget Screenshot](assets/screenshot.png)
+
 ## Features
 
 - **Sections** with editable labels (e.g., "Now", "Next Week", "Packages")
@@ -10,6 +12,9 @@ A desktop todo list widget for [Rainmeter](https://www.rainmeter.net/) with sect
 - **Descriptions** on tasks and subitems — plain text or clickable URLs
 - **Multi-URL descriptions** using `;;` separator (rendered as a bullet list)
 - **Inline editing** — double-click section headers, click "add note..." placeholders, or use the pencil icon
+- **Archive** — archive sections or tasks into a collapsible archive area
+- **Reorder** — up/down arrows to rearrange sections and tasks
+- **Backup** — one-click backup of your data file with timestamp
 - **Undo delete** — trashed items can be restored
 - **Dark theme** with translucent background
 

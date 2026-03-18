@@ -1,0 +1,4 @@
+todo/data.txt
+todo/trash.txt
+todo/data_*.txt
+.claude/settings.local.json

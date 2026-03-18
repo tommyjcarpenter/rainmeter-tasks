@@ -1,0 +1,7 @@
+##Now
+Example task||add a description here
+Another task|x|completed task example
+>subtask||subitems are indented with >
+##Later
+Future task||https://example.com
+Multi-link task||https://example.com/page1;; https://example.com/page2

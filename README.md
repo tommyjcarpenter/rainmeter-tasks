@@ -1,6 +1,6 @@
 # TodoWidget - Rainmeter Todo Skin
 
-A desktop todo list widget for [Rainmeter](https://www.rainmeter.net/) with sections, tasks, subitems, and clickable URL descriptions.
+In the most Cliche way possible, I vibe-coded up a TODO app, because I wanted one that was always on my Desktop ([Rainmeter](https://www.rainmeter.net/)) and not an application I have to open. I have been using this for awhile and it does what it needs to do, and nothing it doesn't. 
 
 ![TodoWidget Screenshot](assets/screenshot.png)
 

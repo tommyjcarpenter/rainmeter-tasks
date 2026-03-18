@@ -90,6 +90,26 @@ end
 
 -- Write items back to data file
 function WriteData(items)
+    -- Safety: refuse to write empty data if the file already has content
+    if #items == 0 then
+        SKIN:Bang('!Log', 'TodoEngine: WriteData refused to write empty items list', 'Warning')
+        return false
+    end
+
+    -- Backup current file before overwriting
+    local src = io.open(sDataFile, 'r')
+    if src then
+        local content = src:read('*a')
+        src:close()
+        if content and #content > 0 then
+            local bak = io.open(sDataFile .. '.bak', 'w')
+            if bak then
+                bak:write(content)
+                bak:close()
+            end
+        end
+    end
+
     local hFile = io.open(sDataFile, 'w')
     if not hFile then return false end
 
